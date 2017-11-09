@@ -1,0 +1,69 @@
+Título del proyecto
+Venga, algo original 
+Motivación, estado del arte
+Qué os ha motivado a hacer esto, cómo vais a reventar el mercado y haceros ricos?
+Nos gusta programar, esa es la parte fundamental. Y queríamos dar un toque distinto, más ameno, a los test sobre oposiciones. Que motivaran al usuario a seguir avanzando y superándose conforme fuese respondiendo. 
+Datos de la plataforma
+Nombre del equipo?
+
+Contacto: Manuel Nuez – Georgi Hristov 
+Mail: mnuez@techberry.es – ghristov@techberry.es |  Fecha: 03/11/2017
+
+Briefing:
+
+El proyecto consiste en realizar una aplicación web de test online para oposiciones sobre informática. Ofrece estadística acerca de las respuestas del usuario, propias,  respecto a cada tema, y totales, respecto al resto de usuarios. 
+
+
+Módulo de la aplicación:
+
+Presentará de manera vistosa y limpia una serie de test. Estos serán ordenables por nivel y categoría. 
+Contará con diferentes niveles o categorías de tests. De manera que cuando el usuario supere 5 pruebas podrá pasar de nivel y hacer tests de categoría superior. Para superar una prueba se deberá alcanzar un porcentaje de aciertos determinado(dependiendo del tipo de test elegido). 
+
+
+
+Cada test contará con:
+-	Cateogría(Internet, SO, Ofimática, Hardware, Correo )
+-	Pruebas por categoría(al superar 5 accedes al test de prueba para subir de nivel; para superar categoría es necesario llegar a un determinado % de acierto)
+-	Seguimiento de estadísticas personales y globales.
+-	Posibilidad de contactar con un profesor para resolver dudas
+-	3 roles (Admin,Profesor,Usuario).
+
+Acciones de cada rol de usuario:
+-Admin:
+-	Dar de alta usuarios.
+-	Dar de alta profesores.
+-	 Ver las dudas.
+-	 Crear y destruir tests.
+-	 Eliminar usuarios.
+-	 Eliminar profesores.
+
+-Profesor:
+-	Acceder (lo registra un admin).
+-	Ver las dudas y contestar.
+-	Crear tests. 
+
+-Usuario:
+-	Registrarse e. (va a haber posibilidad de crearse un avatar que evolucione?) 
+-	Acceder.
+-	Consultar estadísticas (y ver cómo va el resto de usuarios en general)
+-	Posibilidad de crearse avatar que evolucione a medida que se alcancen un nº de aciertos.
+-	Darse de baja.
+-	Hacer tests.
+-	Mandar dudas (tutorías) a la plataforma.
+Características del site:
+Maquetación adaptada a distintos soportes:
+La maquetación flexible permite adaptarse a cualquier navegador incluidos los de smartphone y tablet. Se crean reglas que modifican el aspecto y adaptan los elementos a las distintos formatos.
+ 
+Código a medida:
+El website estará programado con código propio.PHP, HTML5, CSS3 serán los estándares utilizados.
+
+Temporización
+Roles de usuario(fundamental);Aspecto usuario(fundamental);Roles(cookies/sesiones y caché)-qué puede hacer cada uno, qué puede ver y qué no.---2 semanas
+Test-que se muestren, formularios, conectar con base de datos etc-. ----3-4 semanas
+Estadisticas(parte matemática)---2 semanas
+Estilos -1 semana
+Debug o test ->1 semana
+Mensajes
+
+
+
